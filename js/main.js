@@ -10,7 +10,7 @@ function Load() {
 
     //Upgrades
     upgradeManager = new UpgradeManager("Upgrades");
-    upgradeManager.Add("DicePointBonus1", new Upgrade(50, "Get 1 more point from each dice", "DicePointBonus", 1));
+    upgradeManager.Add("DicePointBonus1", new Upgrade(50, "Get 1 more point from each dice", "DicePointBonus", 3));
     upgradeManager.Add("DicePointBonus2", new Upgrade(100, "Get 2 more points from each dice", "DicePointBonus", 2, "DicePointBonus1"));
     upgradeManager.Add("DicePointBonus3", new Upgrade(150, "Get 3 more points from each dice", "DicePointBonus", 3, "DicePointBonus2"));
     upgradeManager.Add("DicePointBonus4", new Upgrade(300, "Get 4 more points from each dice", "DicePointBonus", 4, "DicePointBonus3"));
